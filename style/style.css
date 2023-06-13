@@ -1,0 +1,65 @@
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', serif;
+}
+
+/* body */
+body {
+    height: 100vh;
+    background: #009ffd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+/* <!-- ===========   Heading  =========== --> */
+h1 {
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+/* <!-- ===========   main  =========== --> */
+.main {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* <!-- *************  Display Screen  ************** --> */
+.display {
+    display: flex;
+    justify-content: center;
+}
+
+/* <!-- ###########  input text  ############ --> */
+#inputDisplay {
+    width: 273px;
+    height: 80px;
+    border: 0;
+    outline: 0;
+    font-size: 2rem;
+    text-align: end;
+}
+
+/* <!-- *************  btns-group  ************** --> */
+.btns-group {
+    display: grid;
+    place-items: center;
+}
+
+
+/* <!-- ###########  row container > input btn  ############ --> */
+.row input {
+    padding: 12px 5px;
+    font-size: 1.5rem;
+    width: 60px;
+    margin: 4px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
